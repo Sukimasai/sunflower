@@ -50,7 +50,7 @@
     box-shadow: inset 0px 0px 10px #79B4ED;
 }
 
-.sunfloweranimate{
+.sunfloweranimation{
     animation-name: sunflowerrotate;
     animation-iteration-count: infinite;
     animation-duration: 9s;
