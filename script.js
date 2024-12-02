@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var himawarinoyakusoku = document.getElementById("sunflowersong");
-    var playpause = true;
+    var playpause = false;
 
     function toggleplay(){
         if (playpause) {
