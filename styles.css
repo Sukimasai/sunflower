@@ -1,0 +1,141 @@
+@keyframes sunflowerrotate{
+    0% {rotate: 0deg;}
+    50% {rotate: 180deg;}
+    100% {rotate: 360deg;}
+}
+
+#sunflowersong{
+    display: none;
+}
+
+#playbutton{
+    background-color: #6B3606;
+}
+
+.pause {
+    -webkit-animation-play-state: paused !important; 
+    -moz-animation-play-state: paused !important; 
+    -o-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+ }
+
+.linkbutton{
+    padding-bottom: 6px;
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.menubutton{
+    color: #659200;
+    font-size: 0.9em;
+    background-color: #6B3606;
+    border-color: transparent;
+}
+
+.textcontent{
+    font-size: xx-large;
+}
+
+.sidecontent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: static;
+}
+
+.sunflowerimage{
+    height: 20em;
+    border-radius: 90px; 
+    box-shadow: inset 0px 0px 10px #79B4ED;
+    animation-name: sunflowerrotate;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+}
+
+.playbutton{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.playbutton:active{
+    scale: 90%;
+}
+
+mark {
+    background-color: aliceblue;
+}
+.p1{
+    padding-left: 20px;
+}
+
+.p2{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4em;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #DAA409;
+    padding: 0%;
+    margin: 0%;
+}
+
+.foot{
+    background-color: #6B3606;
+}
+
+.foottitle{
+    color: #659200;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.1em;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.menu{
+    color: #659200;
+    background-color: #6B3606;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.menu > li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.credit{
+    display: none;
+}
+
+#creditbutton:hover .credit{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    background-color: #659200;
+    position: absolute;
+    margin-top: -93px;
+    margin-left: -163px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+*{
+    margin: 0%;
+    font-family: "Outfit", sans-serif;
+    background-color: #79B4ED;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
