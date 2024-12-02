@@ -13,10 +13,10 @@
 }
 
 .pause {
-    animation-name: sunflowerrotate;
-    animation-iteration-count: infinite;
-    animation-duration: 9s;
-    animation-timing-function: linear;
+    -webkit-animation-play-state: paused !important; 
+    -moz-animation-play-state: paused !important; 
+    -o-animation-play-state: paused !important;
+    animation-play-state: paused !important;
  }
 
 .linkbutton{
@@ -48,10 +48,13 @@
     height: 20em;
     border-radius: 90px; 
     box-shadow: inset 0px 0px 10px #79B4ED;
-    -webkit-animation-play-state: paused !important; 
-    -moz-animation-play-state: paused !important; 
-    -o-animation-play-state: paused !important;
-    animation-play-state: paused !important;
+}
+
+.sunfloweranimate{
+    animation-name: sunflowerrotate;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-timing-function: linear;
 }
 
 .playbutton{
