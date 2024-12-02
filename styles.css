@@ -142,3 +142,18 @@ mark {
 *::-webkit-scrollbar{
     display: none;
 }
+
+@media only screen and (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foottitle{
+        font-size: 1.3em;
+    }
+
+    .menubutton, .linkbutton{
+        font-size: 1.1em;
+    }
+}
