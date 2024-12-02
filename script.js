@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     document.getElementById("sunflowerbutton").onclick = function() {
+        document.getElementById("sunflowerimage").classList.add("sunfloweranimation");
         document.getElementById("sunflowerimage").classList.toggle("pause");
         toggleplay();
     }
