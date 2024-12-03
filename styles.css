@@ -76,6 +76,7 @@ mark {
 .p2{
     text-align: right;
     margin-right: 20px;
+    padding-left: 10px;
 }
 
 .title{
@@ -144,9 +145,20 @@ mark {
 }
 
 @media only screen and (max-width: 600px){
+    .textcontent{
+        padding-top: 20px;
+        font-size: 1.6em;
+    }
+
+    .sunflowerimage{
+        height: 15em;
+    }
+
     .menu{
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
+        padding-left: 0;
     }
 
     .foottitle{
