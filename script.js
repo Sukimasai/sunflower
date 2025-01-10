@@ -4,8 +4,10 @@ var playpause = true;
 function toggleplay(){
     if (playpause) {
         himawarinoyakusoku.pause();
+        document.getElementById("sunflowerimage").classList.add("pause");
     } else {
         himawarinoyakusoku.play();
+        document.getElementById("sunflowerimage").classList.remove("pause");
     }
 
     himawarinoyakusoku.onplay = function(){
@@ -18,7 +20,6 @@ function toggleplay(){
 }
 
 document.getElementById("sunflowerbutton").onclick = function() {
-    document.getElementById("sunflowerimage").classList.toggle("pause");
     toggleplay();
 }
 
