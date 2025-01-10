@@ -1,5 +1,5 @@
 var himawarinoyakusoku = document.getElementById("sunflowersong");
-var playpause = false;
+var playpause = true;
 
 function toggleplay(){
     if (playpause) {
