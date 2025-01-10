@@ -18,7 +18,7 @@ function toggleplay(){
 }
 
 document.getElementById("sunflowerbutton").onclick = function() {
-    document.getElementById("sunflowerimage").classList.toggle("sunfloweranimation");
+    document.getElementById("sunflowerimage").classList.toggle("pause");
     toggleplay();
 }
 
